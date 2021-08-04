@@ -16,7 +16,7 @@ module.exports = {
   plugins: [
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'Document',
+      title: 'Silly Dino Speak',
       template: './src/index.html',
       inject: 'body'
     }),
