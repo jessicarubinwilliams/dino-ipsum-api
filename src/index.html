@@ -4,20 +4,22 @@
   <title>Silly Dino Speak</title>
 </head>
 <body>
-<h1>Get Yourself Some Silly Dino Speak</h1>
-<p>Choose how many paragraphs of silly dino speak you want as well as how many words you want in each paragraph</p>
-<form id="formOne">
-  <div class="form-group">
-    <label for="inputtedParagraphs">How many paragraphs?</label>
-    <input type="number" class="form-control" id="inputtedParagraphs">
+  <div class="container">
+    <h1>Get Yourself Some Silly Dino Speak</h1>
+    <p>Choose how many paragraphs of silly dino speak you want as well as how many words you want in each paragraph</p>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="inputtedParagraphs">How many paragraphs?</label>
+        <input type="number" class="form-control" id="inputtedParagraphs">
+      </div>
+      <div class="form-group">
+        <label for="inputtedWords">How many words per paragraph?</label>
+        <input type="number" class="form-control" id="inputtedWords">
+      </div>
+      <button type="submit" class="btn btn-info">Get you some dino speak</button>
+    </form>
+    <div id="showDinos"></div>
+    <div id="showErrors"></div>
   </div>
-  <div class="form-group">
-    <label for="inputtedWords">How many words per paragraph?</label>
-    <input type="number" class="form-control" id="inputtedWords">
-  </div>
-  <button type="submit" class="btn btn-info">Get you some dino speak</button>
-</form>
-  <div id="showDinos"></div>
-  <div id="showErrors"></div>
 </body>
 </html>
